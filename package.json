@@ -1,0 +1,19 @@
+{
+  "name": "simple_andular_2",
+  "version": "1.0.0",
+  "description": "simple angular 2 website",
+  "main": "index.js",
+  "scripts": {
+    "test": "nathan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnguye11/simple_andular_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pnguye11/simple_andular_2/issues"
+  },
+  "homepage": "https://github.com/pnguye11/simple_andular_2#readme"
+}
