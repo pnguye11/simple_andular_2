@@ -10,7 +10,7 @@ export class NavbarComponent{
   private projectName: string;
 
   constructor() {
-    this.projectName = "Angular 2"
+    this.projectName = "Angular 2";
   }
 };
 

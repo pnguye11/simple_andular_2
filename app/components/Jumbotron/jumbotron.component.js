@@ -9,21 +9,23 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var navbar_component_1 = require('./components/navbar/navbar.component');
-var jumbotron_component_1 = require('./components/jumbotron/jumbotron.component');
-var AppComponent = (function () {
-    function AppComponent() {
+var JumbotronComponent = (function () {
+    function JumbotronComponent() {
+        this.jbtHeading = "Helllo World";
+        this.jbtText = "This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.";
+        this.jbtBtnText = "Read More";
+        this.jbtBtnUrl = "http://test.com";
     }
-    AppComponent = __decorate([
+    JumbotronComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: '<navbar></navbar><jumbotron></jumbotron>',
-            directives: [navbar_component_1.NavbarComponent, jumbotron_component_1.JumbotronComponent]
+            moduleId: module.id,
+            selector: 'jumbotron',
+            templateUrl: 'jumbotron.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], JumbotronComponent);
+    return JumbotronComponent;
 }());
-exports.AppComponent = AppComponent;
+exports.JumbotronComponent = JumbotronComponent;
 ;
-//# sourceMappingURL=app.component.js.map
+//# sourceMappingURL=jumbotron.component.js.map
